@@ -17,7 +17,9 @@ const {
   deleteShow,
   amendShow,
 } = require("./controllers/shows.js");
+const cors = require("cors");
 
+app.use(cors());
 const app = express();
 
 app.use(express.json());
