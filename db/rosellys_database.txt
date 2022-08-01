@@ -1,0 +1,31 @@
+DROP DATABASE
+CREATE DATABASE
+You are now connected to database "rosellys_database" as user "simonrosellys".
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 5
+INSERT 0 2
+INSERT 0 2
+ user_id | first_name |    pwd     | pay 
+---------+------------+------------+-----
+       1 | Simon      | Simonpwd   |   0
+       2 | Rebecca    | Rebeccapwd |   0
+       3 | Allan      | Allanpwd   |   0
+       4 | Matt       | Mattpwd    |   0
+       5 | George     | Georgepwd  |   0
+(5 rows)
+
+ song_id |     title      |                                                                                                                                                                                                                                                                                                   lyrics                                                                                                                                                                                                                                                                                                   | song_key |         instrumentation          | composer | notes 
+---------+----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------------------------------+----------+-------
+       1 | American Dream | Not too much longer til I'll take you away, not too much longer til we're ready to play, only 9 more months left til we're leaving the ground to find our feet in our American dream CHORUS Gonna travel on the open road in a tired out old bay, Gonna travel on the open road, Carolina to LA, Let the rhythm of the music lead us day after day when we find our feet in our American dream Not too much longer til we're singing our songs, not too much longer til we're jamming where we belong, only 9 more months left til we're setting far off to find our feet in our American dream CHORUS x 2 | E        | Guitar Pedal Steel               | Simon    | 
+       2 | Maryland       |       "Hey lady, tell me why, you're singing out loud all the time, they're all crazy for your smile, you're living in everyone's mind (Chorus) Maryland in '79 with her cowgirl boots and her head held high, making friends all over the street, doesn't really matter who she's gonna, be, see that girl with that look in her eyes, she's dancing all alone with her head held high, in Maryland oh Maryland, hey lady.Hey lady, singing your songs, you'll carry through all of the town, something crazy is going on, there's silence through all of the crowds(Chorus) x2",                        +| G        | Guitar Pedal Steel Electric Bass | Rebecca  | 
+         |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |          |                                  |          | 
+(2 rows)
+
+ show_id |  venue_name   |  venue_address   | show_date  | soundcheck_time | set_start_time | venue_website |  line_up  | confirmed | player_availability | fee | paid_in | paid_out | contact_details |       notes       
+---------+---------------+------------------+------------+-----------------+----------------+---------------+-----------+-----------+---------------------+-----+---------+----------+-----------------+-------------------
+       1 | The Bear Club | Luton, somewhere | 2022-12-30 | 13:00:00        | 14:00:00       | www.Bear.com  | Full Band | t         | All of us           | 400 | t       | f        | Justin Dude     | A pretty good gig
+       2 | The Bell Inn  | Redbrook         | 2022-12-30 | 13:00:00        | 14:00:00       | www.Bell.com  | Duo       | t         | All of us           | 400 | t       | f        | Nick Till       | Local
+(2 rows)
+

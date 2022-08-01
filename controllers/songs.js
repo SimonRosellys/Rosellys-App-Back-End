@@ -3,6 +3,7 @@ const {
   fetchSongs,
   removeSong,
   updateSong,
+  fetchSongById,
 } = require("../models/songs.js");
 
 exports.addSong = (req, res) => {
@@ -29,5 +30,12 @@ exports.amendSong = (req, res) => {
   const newData = Object.values(req.body)[0];
   updateSong(id, key, newData).then((updatedSong) => {
     res.send(updatedSong);
+  });
+};
+
+exports.getSongById = (req, res) => {
+  const song_id = req.params.id;
+  fetchSongById(song_id).then((song) => {
+    res.status(200).send(song.rows);
   });
 };

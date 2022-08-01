@@ -3,6 +3,7 @@ const {
   fetchShows,
   removeShow,
   updateShow,
+  fetchShowById,
 } = require("../models/shows.js");
 
 exports.addShow = (req, res) => {
@@ -11,7 +12,6 @@ exports.addShow = (req, res) => {
 
 exports.getShows = (req, res, next) => {
   fetchShows().then((shows) => {
-    console.log(shows.rows);
     res.status(200).send(shows.rows);
   });
 };
@@ -29,5 +29,12 @@ exports.amendShow = (req, res) => {
   const newData = Object.values(req.body)[0];
   updateShow(id, key, newData).then((updatedShow) => {
     res.send(updatedShow);
+  });
+};
+
+exports.getShowById = (req, res) => {
+  const show_id = req.params.id;
+  fetchShowById(show_id).then((show) => {
+    res.status(200).send(show.rows);
   });
 };

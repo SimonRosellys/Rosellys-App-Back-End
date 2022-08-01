@@ -6,7 +6,7 @@ exports.insertSong = (newSong) => {
   return db
     .query(
       "INSERT INTO songs (title, lyrics, song_key, instrumentation, composer) VALUES ($1, $2, $3, $4, $5) RETURNING *;",
-      [title, lyrics, song_key, instrumentation, composer]
+      [title, lyrics, song_key, instrumentation, composer, notes]
     )
     .then(({ rows }) => rows[0]);
 };
@@ -28,4 +28,8 @@ exports.updateSong = (song_id, key, newData) => {
     .then((result) => {
       return result.rows[0];
     });
+};
+
+exports.fetchSongById = (song_id) => {
+  return db.query("SELECT * FROM songs WHERE song_id = $1", [song_id]);
 };

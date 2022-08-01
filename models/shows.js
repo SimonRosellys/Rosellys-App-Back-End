@@ -49,6 +49,10 @@ exports.removeShow = (show_id) => {
   return db.query("DELETE FROM shows WHERE show_id = $1", [show_id]);
 };
 
+exports.fetchShowById = (show_id) => {
+  return db.query("SELECT * FROM shows WHERE show_id = $1", [show_id]);
+};
+
 exports.updateShow = (show_id, key, newData) => {
   return db
     .query(`UPDATE shows SET ${key} = $1 WHERE show_id = $2 RETURNING *; `, [
