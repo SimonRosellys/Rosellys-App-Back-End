@@ -7,7 +7,7 @@ const format = require("pg-format");
 const db = require("../connection");
 const { dropTables, createTables } = require("..//helpers/manage-tables");
 
-const seed = async ({ songData, usersData, showsData }) => {
+const seed = async ({ songData, showData, userData }) => {
   await dropTables();
   await createTables();
 
@@ -28,55 +28,48 @@ const seed = async ({ songData, usersData, showsData }) => {
     .query(insertSongsQueryStr)
     .then((result) => result.rows);
 
-  //   const insertUsersQueryStr = format(
-  //     "INSERT INTO users ( username, name, avatar_url) VALUES %L RETURNING *;",
-  //     userData.map(({ username, name, avatar_url }) => [
-  //       username,
-  //       name,
-  //       avatar_url,
-  //     ])
-  // //   );
-  //   const usersPromise = db
-  //     .query(insertUsersQueryStr)
-  //     .then((result) => result.rows);
+  const insertShowsQueryStr = format(
+    "INSERT INTO shows (venue_name, venue_address, show_date, soundcheck_time, set_start_time, venue_website, line_up, confirmed, player_availability, fee, paid_in, paid_out, contact_details, notes) VALUES %L RETURNING *;",
+    showData.map(
+      ({
+        venue_name,
+        venue_address,
+        show_date,
+        soundcheck_time,
+        set_start_time,
+        venue_website,
+        line_up,
+        confirmed,
+        player_availability,
+        fee,
+        paid_in,
+        paid_out,
+        contact_details,
+        notes,
+      }) => [
+        venue_name,
+        venue_address,
+        show_date,
+        soundcheck_time,
+        set_start_time,
+        venue_website,
+        line_up,
+        confirmed,
+        player_availability,
+        fee,
+        paid_in,
+        paid_out,
+        contact_details,
+        notes,
+      ]
+    )
+  );
 
-  await Promise.all([songsPromise]);
+  const showsPromise = db
+    .query(insertShowsQueryStr)
+    .then((result) => result.rows);
 
-  //   const formattedArticleData = articleData.map(convertTimestampToDate);
-  //   const insertArticlesQueryStr = format(
-  //     "INSERT INTO articles (title, topic, author, body, created_at, votes) VALUES %L RETURNING *;",
-  //     formattedArticleData.map(
-  //       ({ title, topic, author, body, created_at, votes = 0 }) => [
-  //         title,
-  //         topic,
-  //         author,
-  //         body,
-  //         created_at,
-  //         votes,
-  //       ]
-  //     )
-  //   );
-
-  //   const articleRows = await db
-  //     .query(insertArticlesQueryStr)
-  //     .then((result) => result.rows);
-
-  //   const articleIdLookup = createRef(articleRows, "title", "article_id");
-  //   const formattedCommentData = formatComments(commentData, articleIdLookup);
-
-  //   const insertCommentsQueryStr = format(
-  //     "INSERT INTO comments (body, author, article_id, votes, created_at) VALUES %L RETURNING *;",
-  //     formattedCommentData.map(
-  //       ({ body, author, article_id, votes = 0, created_at }) => [
-  //         body,
-  //         author,
-  //         article_id,
-  //         votes,
-  //         created_at,
-  //       ]
-  //     )
-  //   );
-  //   return db.query(insertCommentsQueryStr).then((result) => result.rows);
+  await Promise.all([songsPromise, showsPromise]);
 };
 
 module.exports = seed;

@@ -1,11 +1,11 @@
 const db = require("../db/connection");
 
 exports.insertSong = (newSong) => {
-  const { title, lyrics, song_key, instrumentation, composer } = newSong;
+  const { title, lyrics, song_key, instrumentation, composer, notes } = newSong;
   console.log(newSong);
   return db
     .query(
-      "INSERT INTO songs (title, lyrics, song_key, instrumentation, composer) VALUES ($1, $2, $3, $4, $5) RETURNING *;",
+      "INSERT INTO songs (title, lyrics, song_key, instrumentation, composer, notes) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *;",
       [title, lyrics, song_key, instrumentation, composer, notes]
     )
     .then(({ rows }) => rows[0]);

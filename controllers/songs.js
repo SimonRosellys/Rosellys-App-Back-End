@@ -12,7 +12,7 @@ exports.addSong = (req, res) => {
 
 exports.getSongs = (req, res, next) => {
   fetchSongs().then((songs) => {
-    console.log(songs.rows);
+    // console.log(songs.rows);
     res.status(200).send(songs.rows);
   });
 };

@@ -28,11 +28,11 @@ const createTables = async () => {
         set_start_time TIME,
         venue_website TEXT,
         line_up TEXT,
-        confirmed BOOLEAN,
+        confirmed TEXT,
         player_availability TEXT,
         fee INT,
-        paid_in BOOLEAN, 
-        paid_out BOOLEAN,
+        paid_in TEXT, 
+        paid_out TEXT,
         contact_details TEXT,
         notes TEXT
     );`);
