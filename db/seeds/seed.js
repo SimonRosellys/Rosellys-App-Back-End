@@ -7,7 +7,7 @@ const format = require("pg-format");
 const db = require("../connection");
 const { dropTables, createTables } = require("..//helpers/manage-tables");
 
-const seed = async ({ songData, showData, userData }) => {
+const seed = async ({ songData, showData, setlistsData }) => {
   await dropTables();
   await createTables();
 
@@ -64,12 +64,18 @@ const seed = async ({ songData, showData, userData }) => {
       ]
     )
   );
-
   const showsPromise = db
     .query(insertShowsQueryStr)
     .then((result) => result.rows);
 
-  await Promise.all([songsPromise, showsPromise]);
-};
+  const insertSetlistQueryStr = format(
+    "INSERT INTO setlists ( show_id, list_array) VALUES %L RETURNING *;",
+    setlistsData.map(({ show_id, list_array }) => [show_id, list_array])
+  );
+  const setlistsPromise = db
+    .query(insertSetlistQueryStr)
+    .then((result) => result.rows);
 
+  await Promise.all([songsPromise, showsPromise, setlistsPromise]);
+};
 module.exports = seed;

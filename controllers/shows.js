@@ -26,7 +26,7 @@ exports.deleteShow = (req, res) => {
 
 exports.amendShow = (req, res) => {
   const { id } = req.params;
-  console.log(req.params);
+  // console.log(req.params);
   const key = Object.keys(req.body)[0];
   const newData = Object.values(req.body)[0];
   updateShow(id, key, newData).then((updatedShow) => {

@@ -1,5 +1,5 @@
 \c rosellys_database
 
-SELECT * FROM users;
+SELECT * FROM setlists;
 SELECT * FROM songs;
 SELECT * FROM shows;

@@ -1,3 +1,4 @@
+-- I'm not using this - use the seed file. But, this DOES WORK!!
 DROP DATABASE IF EXISTS rosellys_database;
 CREATE DATABASE rosellys_database;
 
@@ -40,6 +41,11 @@ CREATE TABLE shows (
     notes TEXT
 );
 
+CREATE TABLE setlists (
+    setlist_id SERIAL PRIMARY KEY,
+    show_id INT,
+    list_array INT[]
+);
 
 INSERT INTO users(first_name, pwd, pay)
 VALUES
@@ -86,9 +92,15 @@ INSERT INTO shows(venue_name, venue_address, show_date, soundcheck_time, set_sta
     'Nick Till',
     'Local');
 
+
+INSERT INTO setlists( show_id, list_array)
+VALUES
+(2, ARRAY [1, 2, 3]),
+(3, ARRAY [4, 5, 6]),
+(1, ARRAY [7, 8, 9]);
+
+
 SELECT * FROM users;
 SELECT * FROM songs;
 SELECT * FROM shows;
--- This connects the two tables
--- JOIN songs
--- ON users.first_name = songs.composer;
+SELECT * FROM setlists;
