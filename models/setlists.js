@@ -49,9 +49,9 @@ exports.fetchSetlists = () => {
 //   return db.query("DELETE FROM shows WHERE show_id = $1", [show_id]);
 // };
 
-// exports.fetchShowById = (show_id) => {
-//   return db.query("SELECT * FROM shows WHERE show_id = $1", [show_id]);
-// };
+exports.fetchSetlistById = (setlist_id) => {
+  return db.query("SELECT * FROM setlists WHERE setlist_id = $1", [setlist_id]);
+};
 
 // exports.updateShow = (show_id, key, newData) => {
 //   return db

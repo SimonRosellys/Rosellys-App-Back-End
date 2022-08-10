@@ -3,7 +3,7 @@ const {
   fetchSetlists,
   // removeShow,
   // updateShow,
-  // fetchShowById,
+  fetchSetlistById,
 } = require("../models/setlists.js");
 
 // exports.addShow = (req, res) => {
@@ -34,9 +34,9 @@ exports.getSetlists = (req, res, next) => {
 //   });
 // };
 
-// exports.getShowById = (req, res) => {
-//   const show_id = req.params.id;
-//   fetchShowById(show_id).then((show) => {
-//     res.status(200).send(show.rows);
-//   });
-// };
+exports.getSetlistById = (req, res) => {
+  const setlist_id = req.params.id;
+  fetchSetlistById(setlist_id).then((list) => {
+    res.status(200).send(list.rows);
+  });
+};

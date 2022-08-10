@@ -19,6 +19,7 @@ const {
   amendShow,
   getShowById,
 } = require("./controllers/shows.js");
+const { getSetlists, getSetlistById } = require("./controllers/setlists");
 const cors = require("cors");
 
 const app = express();
@@ -29,7 +30,7 @@ app.use(express.json());
 app.get("/api/users", getUsers);
 app.get("/api/songs", getSongs);
 app.get("/api/shows", getShows);
-app.get("/api/setlists", getSetlists);
+app.get("/api/set-lists", getSetlists);
 
 app.post("/api/users", addUser);
 app.post("/api/songs", addSong);
@@ -45,5 +46,6 @@ app.patch("/api/shows/:id", amendShow);
 
 app.get("/api/shows/:id", getShowById);
 app.get("/api/songs/:id", getSongById);
+app.get("/api/set-lists/:id", getSetlistById);
 
 module.exports = app;
