@@ -29,6 +29,7 @@ app.use(express.json());
 app.get("/api/users", getUsers);
 app.get("/api/songs", getSongs);
 app.get("/api/shows", getShows);
+app.get("/api/setlists", getSetlists);
 
 app.post("/api/users", addUser);
 app.post("/api/songs", addSong);
