@@ -1,7 +1,7 @@
 module.exports = [
   {
     show_id: 2,
-    list_array: `{1, 2, 3}`,
+    list_array: `{1, 2, 3, 5, 6, 7, 8, 9}`,
   },
   {
     show_id: 3,

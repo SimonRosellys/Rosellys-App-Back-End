@@ -1,7 +1,14 @@
 You are now connected to database "rosellys_database" as user "simonrosellys".
- setlist_id | show_id | list_array 
-------------+---------+------------
-          1 |       2 | {1,2,3}
+ show_id |   venue_name    |   venue_address    | show_date  | soundcheck_time | set_start_time |      venue_website      |  line_up  | confirmed | player_availability | fee | paid_in | paid_out | contact_details |      notes       
+---------+-----------------+--------------------+------------+-----------------+----------------+-------------------------+-----------+-----------+---------------------+-----+---------+----------+-----------------+------------------
+       2 | The Bear Club   | Luton, Beds        | 2022-03-04 | 15:00:00        | 16:00:00       | www.TheBearClub.co.uk   | Full Band | No        | all                 | 450 | No      | No       | Justin          | Cool Whiskey Bar
+       3 | The Golden Lion | Bristol            | 2022-05-06 | 15:00:00        | 16:00:00       | www.TheGoldenLion.com   | Full Band | No        | all                 | 200 | No      | No       | Rhys            | Home from home
+       1 | NEW NAME TEST   | Redbrook, Monmouth | 2022-01-02 | 15:00:00        | 16:00:00       | www.TheBellRedbrook.com | Full Band | No        | all                 | 250 | No      | No       | Nick Till       | NEW NOTES TEST
+(3 rows)
+
+ setlist_id | show_id |    list_array     
+------------+---------+-------------------
+          1 |       2 | {1,2,3,5,6,7,8,9}
           2 |       3 | {4,5,6}
           3 |       1 | {7,8,9}
 (3 rows)
@@ -109,11 +116,4 @@ You are now connected to database "rosellys_database" as user "simonrosellys".
       99 | Favourite Last Mistake              | How many girls have you tried, to use as shoulders to cry on. How many days will it take, 'til you remember my name. (Chorus) Don't make me a game you'll play. Don't make me a favourite last mistake. I'll leave on the last train out of town. Too many memories to face, they come and go all the time now. Too many faces to hate, it's just a matter of time now. (Chorus 2) You've made me a game you've played. You've made me your favourite last mistake. I'm leaving I'm riding out this time.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |          |                   | Rebecca Rosellys | 
      100 | Old Man                             | I ain't feeling like an old man. I ain't feeling like an old man. Bit I've been around a little bit longer and its all been good. I ain't feeling like an old man. I ain't feeling like an old man. But the years have been a calling and my body listened more than my mind. (Chorus) And just like the day I came in, somebody was heading on out. It's just the way that its always been, one in one out, one in one out, one in. But I ain't feeling like an old man. I ain't feeling like an old man. I ain't feeling like an old man. 'Cos I'm as old as my tongue and a little bit older than my teeth. I ain't feeling like I haven't won. I ain't feeling like I haven't won. 'Cos I'm leaving with a smile of the thought of my next  randson. (Chorus)                                                                                                                                                                                                                                                                                                                   |          |                   | Rebecca Rosellys | 
 (100 rows)
-
- show_id |   venue_name    |   venue_address    | show_date  | soundcheck_time | set_start_time |      venue_website      |  line_up  | confirmed | player_availability | fee | paid_in | paid_out | contact_details |       notes       
----------+-----------------+--------------------+------------+-----------------+----------------+-------------------------+-----------+-----------+---------------------+-----+---------+----------+-----------------+-------------------
-       1 | The Bell Inn    | Redbrook, Monmouth | 2022-01-02 | 15:00:00        | 16:00:00       | www.TheBellRedbrook.com | Full Band | No        | all                 | 250 | No      | No       | Nick Till       | Lovely little gig
-       2 | The Bear Club   | Luton, Beds        | 2022-03-04 | 15:00:00        | 16:00:00       | www.TheBearClub.co.uk   | Full Band | No        | all                 | 450 | No      | No       | Justin          | Cool Whiskey Bar
-       3 | The Golden Lion | Bristol            | 2022-05-06 | 15:00:00        | 16:00:00       | www.TheGoldenLion.com   | Full Band | No        | all                 | 200 | No      | No       | Rhys            | Home from home
-(3 rows)
 

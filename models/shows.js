@@ -53,13 +53,24 @@ exports.fetchShowById = (show_id) => {
   return db.query("SELECT * FROM shows WHERE show_id = $1", [show_id]);
 };
 
-exports.updateShow = (show_id, key, newData) => {
+exports.updateShow = (show_id, key, value) => {
   return db
     .query(`UPDATE shows SET ${key} = $1 WHERE show_id = $2 RETURNING *; `, [
-      newData,
+      value,
       show_id,
     ])
     .then((result) => {
       return result.rows[0];
     });
 };
+
+// exports.updateShow = (show_id, key, newData) => {
+//   return db
+//     .query(`UPDATE shows SET ${key} = $1 WHERE show_id = $2 RETURNING *; `, [
+//       newData,
+//       show_id,
+//     ])
+//     .then((result) => {
+//       return result.rows[0];
+//     });
+// };

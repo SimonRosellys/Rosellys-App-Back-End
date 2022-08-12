@@ -26,10 +26,10 @@ exports.deleteSong = (req, res) => {
 
 exports.amendSong = (req, res) => {
   const { id } = req.params;
-  const key = Object.keys(req.body)[0];
-  const newData = Object.values(req.body)[0];
-  updateSong(id, key, newData).then((updatedSong) => {
-    res.send(updatedSong);
+  Object.entries(req.body).forEach((entry) => {
+    const key = entry[0];
+    const value = entry[1];
+    updateSong(id, key, value);
   });
 };
 

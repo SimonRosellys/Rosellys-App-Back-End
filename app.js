@@ -40,9 +40,9 @@ app.delete("/api/users/:id", deleteUser);
 app.delete("/api/songs/:id", deleteSong);
 app.delete("/api/shows/:id", deleteShow);
 
-app.patch("/api/users/:id", amendUser);
-app.patch("/api/songs/:id", amendSong);
-app.patch("/api/shows/:id", amendShow);
+app.patch("/api/users/:id", amendUser); // change to PUT?
+app.put("/api/songs/:id", amendSong);
+app.put("/api/shows/:id", amendShow);
 
 app.get("/api/shows/:id", getShowById);
 app.get("/api/songs/:id", getSongById);

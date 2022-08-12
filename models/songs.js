@@ -19,10 +19,10 @@ exports.removeSong = (song_id) => {
   return db.query("DELETE FROM songs WHERE song_id = $1", [song_id]);
 };
 
-exports.updateSong = (song_id, key, newData) => {
+exports.updateSong = (song_id, key, value) => {
   return db
     .query(`UPDATE songs SET ${key} = $1 WHERE song_id = $2 RETURNING *; `, [
-      newData,
+      value,
       song_id,
     ])
     .then((result) => {

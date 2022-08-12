@@ -26,11 +26,10 @@ exports.deleteShow = (req, res) => {
 
 exports.amendShow = (req, res) => {
   const { id } = req.params;
-  // console.log(req.params);
-  const key = Object.keys(req.body)[0];
-  const newData = Object.values(req.body)[0];
-  updateShow(id, key, newData).then((updatedShow) => {
-    res.send(updatedShow);
+  Object.entries(req.body).forEach((entry) => {
+    const key = entry[0];
+    const value = entry[1];
+    updateShow(id, key, value);
   });
 };
 
