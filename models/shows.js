@@ -64,13 +64,3 @@ exports.updateShow = (show_id, key, value) => {
     });
 };
 
-// exports.updateShow = (show_id, key, newData) => {
-//   return db
-//     .query(`UPDATE shows SET ${key} = $1 WHERE show_id = $2 RETURNING *; `, [
-//       newData,
-//       show_id,
-//     ])
-//     .then((result) => {
-//       return result.rows[0];
-//     });
-// };
