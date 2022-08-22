@@ -39,3 +39,12 @@ exports.getShowById = (req, res) => {
     res.status(200).send(show.rows);
   });
 };
+
+exports.createNewUser = (req, res, next) => {
+  const { username, name, avatar_url } = req.body;
+  addNewUser(username, name, avatar_url)
+    .then((user) => {
+      res.status(201).send({ user });
+    })
+    .catch(next);
+};
