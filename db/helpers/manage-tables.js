@@ -81,10 +81,3 @@ const dropTables = async () => {
 };
 
 module.exports = { createTables, dropTables };
-
-// NOT WORKING
-// const setListsTablePromise = db.query(`CREATE TABLE setlists (
-//   setlist_id SERIAL PRIMARY KEY,
-//   show_id INT,
-//   list_array INT[],
-//   );`);
