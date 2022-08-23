@@ -1,4 +1,4 @@
-const seed = require("./seeds/seed-not-working");
+const seed = require("./seeds/seed");
 const devData = require("./data/development-data/lyrics");
 
 seed(devData);
