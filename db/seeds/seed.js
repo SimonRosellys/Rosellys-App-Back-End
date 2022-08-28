@@ -12,15 +12,26 @@ const seed = async ({ songData, showData, setlistsData }) => {
   await createTables();
 
   const insertSongsQueryStr = format(
-    "INSERT INTO songs ( title, lyrics, song_key, instrumentation, composer, notes) VALUES %L RETURNING *;",
+    "INSERT INTO songs ( title, lyrics, song_key, instrumentation, composer, notes, album, stage_ready) VALUES %L RETURNING *;",
     songData.map(
-      ({ title, lyrics, song_key, instrumentation, composer, notes }) => [
+      ({
         title,
         lyrics,
         song_key,
         instrumentation,
         composer,
         notes,
+        album,
+        stage_ready,
+      }) => [
+        title,
+        lyrics,
+        song_key,
+        instrumentation,
+        composer,
+        notes,
+        album,
+        stage_ready,
       ]
     )
   );

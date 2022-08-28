@@ -9,7 +9,9 @@ const createTables = async () => {
       song_key TEXT,
       instrumentation TEXT,
       composer TEXT,
-      notes TEXT
+      notes TEXT,
+      album TEXT,
+      stage_ready TEXT
     );`);
 
   const usersTablePromise = db.query(`CREATE TABLE users (

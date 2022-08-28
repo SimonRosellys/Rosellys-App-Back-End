@@ -15,6 +15,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "DTTN",
+    stage_ready: "Y",
   },
   {
     title: "Our Song",
