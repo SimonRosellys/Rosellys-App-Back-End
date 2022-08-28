@@ -5,8 +5,17 @@ exports.insertSong = (newSong) => {
   console.log(newSong);
   return db
     .query(
-      "INSERT INTO songs (title, lyrics, song_key, instrumentation, composer, notes) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *;",
-      [title, lyrics, song_key, instrumentation, composer, notes]
+      "INSERT INTO songs (title, lyrics, song_key, instrumentation, composer, notes, album, stage_ready) VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING *;",
+      [
+        title,
+        lyrics,
+        song_key,
+        instrumentation,
+        composer,
+        notes,
+        album,
+        stage_ready,
+      ]
     )
     .then(({ rows }) => rows[0]);
 };
