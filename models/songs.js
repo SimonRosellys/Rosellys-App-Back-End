@@ -1,7 +1,16 @@
 const db = require("../db/connection");
 
 exports.insertSong = (newSong) => {
-  const { title, lyrics, song_key, instrumentation, composer, notes } = newSong;
+  const {
+    title,
+    lyrics,
+    song_key,
+    instrumentation,
+    composer,
+    notes,
+    album,
+    stage_ready,
+  } = newSong;
   console.log(newSong);
   return db
     .query(
