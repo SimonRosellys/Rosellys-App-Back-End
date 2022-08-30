@@ -9,3 +9,5 @@ npm run dev // start the app and get the server listening
 psql -f view-db.sql > view-db.txt // Pipe current databases
 
 node ./db/seeds/run-seed.js // Seed and reset DBs
+
+git push heroku main // Push Your code up to Heroku
