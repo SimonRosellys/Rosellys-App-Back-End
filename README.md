@@ -7,6 +7,10 @@ Another example - add a song by doing a POST request to /api/songs - there is a 
 
 If you would like to interact with the API for POST, PATCH and DELETE request I would recommend using insomnia.
 
+There is a test version deployed on Heroku here:
+
+    https://rosellys-app.herokuapp.com/
+
 ---
 
 ### **Get Started**
