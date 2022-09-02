@@ -6,6 +6,8 @@ module.exports = [
   //   instrumentation: "",
   //   composer: "Rebecca Rosellys",
   //   notes: "",
+  //   album: "",
+  //   stage_ready: "",
   // },
   {
     title: "American Dream",
@@ -15,7 +17,7 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
-    album: "DTTN",
+    album: "2",
     stage_ready: "Y",
   },
   {
@@ -26,6 +28,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "1",
+    stage_ready: "",
   },
   {
     title: "Maryland",
@@ -35,6 +39,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "4",
+    stage_ready: "Y",
   },
   {
     title: "Night + Day",
@@ -44,6 +50,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "5",
+    stage_ready: "Y",
   },
   {
     title: "Hand on Hand",
@@ -53,6 +61,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "1",
+    stage_ready: "",
   },
   {
     title: "Only Way She Knows",
@@ -62,6 +72,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "2",
+    stage_ready: "Y",
   },
   {
     title: "Wipe Your Fears",
@@ -71,6 +83,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "1",
+    stage_ready: "",
   },
   {
     title: "Reasons For Everything",
@@ -80,6 +94,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "1",
+    stage_ready: "",
   },
   {
     title: "Big Brown Coat",
@@ -89,6 +105,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "1",
+    stage_ready: "",
   },
 
   {
@@ -99,6 +117,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "1",
+    stage_ready: "",
   },
   {
     title: "Rescue Me",
@@ -108,6 +128,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "2",
+    stage_ready: "Y",
   },
   {
     title: "Home With You",
@@ -117,6 +139,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "3",
+    stage_ready: "Y",
   },
   {
     title: "Wake Me Up",
@@ -126,6 +150,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "1",
+    stage_ready: "",
   },
   {
     title: "Caught Me At A Bad Time",
@@ -135,6 +161,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "2",
+    stage_ready: "Y",
   },
   {
     title: "Mr Man",
@@ -144,6 +172,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "2",
+    stage_ready: "",
   },
   {
     title: "The Moon and The Stars",
@@ -153,6 +183,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "2",
+    stage_ready: "Y",
   },
   {
     title: "Mary",
@@ -162,6 +194,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "2",
+    stage_ready: "Y",
   },
   {
     title: "You Stole My Heart",
@@ -171,6 +205,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "2",
+    stage_ready: "Y",
   },
   {
     title: "Redwoods",
@@ -180,15 +216,19 @@ module.exports = [
     instrumentation: "ACCORDIAN",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "2",
+    stage_ready: "Y",
   },
   {
     title: "I Want to Drive",
     lyrics:
       "(Chorus) I won't be a passenger, I want to drive. I won't take second best, in my own life. I want to drive, I wanna drive. I want to drive, I wanna drive. Long dark road no lights, cars too close, trying to take your life. Sun sets low on the hills, shadows glow, from the mountains. (Chorus) Crash on the side of the road, people stare, instead of looking ahead. Listen to the song in your head, keeping you there, until you make it. (Chorus)",
     song_key: "",
-    instrumentation: "G",
+    instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "Y",
   },
   {
     title: "No More Dark Days",
@@ -198,6 +238,8 @@ module.exports = [
     instrumentation: "FIDDLE",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "Y",
   },
   {
     title: "Lover's Game",
@@ -207,6 +249,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Heartaches and Promises",
@@ -216,6 +260,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "5",
+    stage_ready: "Y",
   },
   {
     title: "Angel At The Door",
@@ -225,6 +271,8 @@ module.exports = [
     instrumentation: "",
     composer: "Simon Rosellys",
     notes: "",
+    album: "5",
+    stage_ready: "Y",
   },
   {
     title: "Too Much Wine",
@@ -234,6 +282,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Don't Go",
@@ -243,6 +293,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Keep On Smiling (Zoe's Song)",
@@ -252,6 +304,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Our Louise",
@@ -261,6 +315,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Cover Them Up",
@@ -270,6 +326,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "Y",
   },
   {
     title: "Still Too Young",
@@ -279,6 +337,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "5",
+    stage_ready: "Y",
   },
   {
     title: "Queensland Sky",
@@ -288,6 +348,8 @@ module.exports = [
     instrumentation: "FIDDLE, ACCORDIAN",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "5",
+    stage_ready: "Y",
   },
   {
     title: "Camden Town",
@@ -297,15 +359,19 @@ module.exports = [
     instrumentation: "FIDDLE",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "5",
+    stage_ready: "Y",
   },
   {
-    title: "Dark Clouds or Blue Skies",
+    title: "Dark Clouds and Blue Skies",
     lyrics:
       "In the morning when it rains and the day starts again, dark clouds cover up the sun. Blues skies are gone it's a struggle to carry on, know the worries that you share you won't become. (Chorus) Dark clouds or blue skies, life will carry on. Rainfall or sunshine, life will carry on. Dark clouds or blue skies, life will carry on, and the worries that you share you won't become. In the evening when it's late, you're lying in your bed, wide awake sleep won't come. Thoughts of things you haven't done, won't leave you alone, know the worries that you share you won't become. (chorus) When the money is running low, it's a struggle to pay the bills, selling everything you own. Every penny you ever spend, dark thoughts in your head, know the worries that you share you won't become. (chorus)",
     song_key: "G",
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "5",
+    stage_ready: "Y",
   },
   {
     title: "On The Porch",
@@ -315,6 +381,8 @@ module.exports = [
     instrumentation: "FIDDLE",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "5",
+    stage_ready: "Y",
   },
   {
     title: "Silver Grey",
@@ -324,6 +392,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Stone That Never Rolls",
@@ -333,6 +403,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "In Your Eyes",
@@ -342,6 +414,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "You Can't Pin Me Down",
@@ -351,6 +425,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Ain't Gotta Go Home",
@@ -360,6 +436,8 @@ module.exports = [
     instrumentation: "FIDDLE",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "5",
+    stage_ready: "Y",
   },
   {
     title: "Firefly",
@@ -369,6 +447,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "5",
+    stage_ready: "Y",
   },
   {
     title: "Don't Pull Away",
@@ -378,6 +458,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "5",
+    stage_ready: "Y",
   },
   {
     title: "Falling In Love Isn't So Hard",
@@ -387,6 +469,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "A Love Song To You Mother",
@@ -396,6 +480,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Lafayette, Louisiana",
@@ -405,6 +491,8 @@ module.exports = [
     instrumentation: "FIDDLE, ACCORDIAN",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "5",
+    stage_ready: "Y",
   },
   {
     title: "Hands Down (Electrified By You)",
@@ -414,6 +502,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Ten Years Gone",
@@ -423,6 +513,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Broken Dreams",
@@ -432,6 +524,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Mystery Friend",
@@ -441,6 +535,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Save My Broken Heart",
@@ -450,6 +546,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "You're Not Alone",
@@ -459,6 +557,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "We Should Know Better",
@@ -468,6 +568,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Moving Forward",
@@ -477,6 +579,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Memories Of You And Me",
@@ -486,6 +590,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "4",
+    stage_ready: "",
   },
   {
     title: "Rose Tinted Glasses",
@@ -495,6 +601,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "4",
+    stage_ready: "Y",
   },
   {
     title: "Number One",
@@ -504,6 +612,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "4",
+    stage_ready: "Y",
   },
   {
     title: "Red, White and Blue",
@@ -513,6 +623,8 @@ module.exports = [
     instrumentation: "FIDDLE",
     composer: "Simon Rosellys",
     notes: "",
+    album: "4",
+    stage_ready: "Y",
   },
   {
     title: "James' Song",
@@ -522,6 +634,8 @@ module.exports = [
     instrumentation: "",
     composer: "Simon Rosellys",
     notes: "",
+    album: "4",
+    stage_ready: "Y",
   },
   {
     title: "Made A Choice",
@@ -531,6 +645,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "4",
+    stage_ready: "Y",
   },
   {
     title: "Asheville 1784",
@@ -540,6 +656,8 @@ module.exports = [
     instrumentation: "FIDDLE",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "4",
+    stage_ready: "Y",
   },
   {
     title: "Not That Old (But I'm Not Eighteen)",
@@ -549,6 +667,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "4",
+    stage_ready: "Y",
   },
   {
     title: "A Thousand Miles",
@@ -558,6 +678,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "4",
+    stage_ready: "Y",
   },
   {
     title: "Eva's Song",
@@ -567,6 +689,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "3",
+    stage_ready: "",
   },
   {
     title: "Final Decision",
@@ -576,6 +700,8 @@ module.exports = [
     instrumentation: "FIDDLE",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "3",
+    stage_ready: "Y",
   },
   {
     title: "San Antone",
@@ -585,6 +711,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "3",
+    stage_ready: "Y",
   },
   {
     title: "Holding On ",
@@ -594,6 +722,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "3",
+    stage_ready: "Y",
   },
   {
     title: "Leaving With You",
@@ -603,6 +733,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "3",
+    stage_ready: "Y",
   },
   {
     title: "Only Seventeen",
@@ -612,6 +744,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "3",
+    stage_ready: "Y",
   },
   {
     title: "Bandera Saloon",
@@ -621,6 +755,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "3",
+    stage_ready: "Y",
   },
   {
     title: "Taste The Weekend",
@@ -630,6 +766,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "3",
+    stage_ready: "Y",
   },
   {
     title: "Man Of Money",
@@ -639,6 +777,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "3",
+    stage_ready: "Y",
   },
   {
     title: "Cocaine Train",
@@ -648,6 +788,8 @@ module.exports = [
     instrumentation: "FIDDLE",
     composer: "Simon Rosellys",
     notes: "",
+    album: "3",
+    stage_ready: "Y",
   },
   {
     title: "Innocent",
@@ -657,6 +799,8 @@ module.exports = [
     instrumentation: "FIDDLE",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "3",
+    stage_ready: "Y",
   },
   {
     title: "Empty Pockets",
@@ -666,6 +810,8 @@ module.exports = [
     instrumentation: "",
     composer: "Simon Rosellys",
     notes: "",
+    album: "3",
+    stage_ready: "Y",
   },
   {
     title: "Move A Little Bit",
@@ -675,6 +821,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Running Away",
@@ -684,6 +832,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Aim High",
@@ -693,6 +843,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Wearing This Coat",
@@ -702,6 +854,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Walking Down The Aisle",
@@ -711,6 +865,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Sorry but I'm English",
@@ -720,6 +876,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Don't Cry My Lover",
@@ -729,6 +887,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Something Special",
@@ -738,6 +898,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Don't Take My Voice",
@@ -747,15 +909,19 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "The River Wye",
     lyrics:
       "Summer time, the sun will shine and people come from all around. To see the River Wye to see the River Wye.    The weather's nice, we'll head on out, take our clothes off when the sun comes up. We'll swim the River Wye we'll swim the River Wye.       (Chorus)    It's on the border, of Wales and England, it'll carry you safe. Taking tourists, since the 1700's, it'll take you where you wanna go.     The autumn leaves of red and green, surround us as the summer's gone. The leaves are falling on the River Wye.    Winter's long, the frost will come, and sometimes it's cold enough, to freeze the River Wye to freeze the River Wye.   (Chorus)    (it'll take you away)",
     song_key: "",
-    instrumentation: "",
+    instrumentation: "ACCORDIAN",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "5",
+    stage_ready: "Y",
   },
   {
     title: "A New Beginning",
@@ -765,6 +931,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Our Miracle",
@@ -774,6 +942,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "It's Not Me It's You",
@@ -783,6 +953,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Don't Let The Whiskey Win",
@@ -792,6 +964,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "5",
+    stage_ready: "Y",
   },
   {
     title: "Different Life",
@@ -799,8 +973,10 @@ module.exports = [
       "In a different life, in a different time. Maybe somehow you're still alive. In a different home, not unlike your own. In a different life, maybe you're not alone. You should have been loved, never alone. Always someone's hand to hold. In a different time, not unlike you've known. In a different life, maybe you're not alone. (Chorus) Now you're looking down, down on us from grace. Now you're looking down, the tears upon my face. Now you're looking down but no one sees you cry, when you're walking in the rain. (repeat verses and chorus) No one sees you cry x2 When you're walking in the rain.",
     song_key: "",
     instrumentation: "",
-    composer: "Rebecca Rosellys",
+    composer: "Simon Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "The Mess I Call Me",
@@ -808,8 +984,10 @@ module.exports = [
       "I try to remember all that I am. All I can see is not what I can. I try to remember the faces I've seen but all I can see is the mess I call me, the mess I call me. I try to remember the places I've been. A time before me, on you that I lean. I try to remember all that I was, but all I can see is the mess I call me, the mess I call me. I know how it feels to love and be loved, but the years that we've lost, to hurt and to pain. Now I struggle to hold on to all that I am. All I can see is the mess I call me, the mess I call me. I try to think of the days of before. A flicker of life, happy and more. I try to hold on to all that I was, but all I can see is the mess I call me, the mess I call me. Mess I call me (repeat)",
     song_key: "",
     instrumentation: "",
-    composer: "Rebecca Rosellys",
+    composer: "Simon Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Nothing Without You",
@@ -817,8 +995,10 @@ module.exports = [
       "I can take you on the ride of your life. I can make it with you by my side. I can take what's wrong and make it alright but I can't do nothing, without you, here by my side.   I can see the right in every wrong. I can feel the light when all hope is gone. I'll protect us when the trouble comes but I can't do nothing, without you, here by my side. Repeat verses",
     song_key: "",
     instrumentation: "",
-    composer: "Rebecca Rosellys",
+    composer: "Simon Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "I'll Write You This Song",
@@ -826,8 +1006,10 @@ module.exports = [
       "Didn't know you would go so soon, if I did I'd have made the last drive. Didn't know you would go so soon, can't believe it's the end of your life. (Chorus) But you know how I care. You know 'cos I was always there. Now it's time, 'cos you have gone, I'll write you this song. I'll write you this song. Didn't know you would go like this, thought I'd see you one last time. Didn't know you would go like this, doesn't feel like I've said my goodbyes. (Chorus)",
     song_key: "",
     instrumentation: "",
-    composer: "Rebecca Rosellys",
+    composer: "Simon Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "All That I Want",
@@ -835,8 +1017,10 @@ module.exports = [
       "You're everything all that I want. You know that I love you, you know that I care. There we go, here we are. You're everything all that I want. Sometimes I'm all that you're not. I know that you love me, I know that you care. There you go, here we are. (Chorus) You're everything all that I want. You're everything all that I need. Everything all I can be. Everything all that I want. There we go, here we are (Chorus) x2 (you are x2)",
     song_key: "",
     instrumentation: "",
-    composer: "Rebecca Rosellys",
+    composer: "Simon Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Loud And Clear",
@@ -846,6 +1030,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "This Old House",
@@ -855,6 +1041,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Behind Me",
@@ -864,6 +1052,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Tongue Tied",
@@ -873,6 +1063,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "I Love You",
@@ -882,6 +1074,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Lost And Found",
@@ -891,6 +1085,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Favourite Last Mistake",
@@ -900,6 +1096,8 @@ module.exports = [
     instrumentation: "",
     composer: "Rebecca Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
   {
     title: "Old Man",
@@ -907,8 +1105,10 @@ module.exports = [
       "I ain't feeling like an old man. I ain't feeling like an old man. Bit I've been around a little bit longer and its all been good. I ain't feeling like an old man. I ain't feeling like an old man. But the years have been a calling and my body listened more than my mind. (Chorus) And just like the day I came in, somebody was heading on out. It's just the way that its always been, one in one out, one in one out, one in. But I ain't feeling like an old man. I ain't feeling like an old man. I ain't feeling like an old man. 'Cos I'm as old as my tongue and a little bit older than my teeth. I ain't feeling like I haven't won. I ain't feeling like I haven't won. 'Cos I'm leaving with a smile of the thought of my next  randson. (Chorus)",
     song_key: "",
     instrumentation: "",
-    composer: "Rebecca Rosellys",
+    composer: "Simon Rosellys",
     notes: "",
+    album: "",
+    stage_ready: "",
   },
 ];
 
